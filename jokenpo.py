@@ -4,7 +4,9 @@ from random import randint
 lista = ('PEDRA', 'PAPEL', 'TESOURA')
 computador = randint(0, 2)
 
-opcao= int(input(print("\n\t\033[1;36mVamos jogar?!\n\t 1 - SIM\t\t 0 - NÃO\033[m\n\t>")))
+print("\n\t\t\033[1;36mVamos jogar?!\n\t 1 - SIM\t\t 0 - NÃO\033[m")
+
+opcao = int(input("\n\t>"))
 
 while opcao != 0:
     print("\n  ", "\033[1;31m=-"*5, "VAMOS JOGAR JOKENPO!", "=-"*5)
